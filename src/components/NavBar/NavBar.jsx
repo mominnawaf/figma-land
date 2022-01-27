@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './NavBar.css'
 import { AppBar, Button, Link } from '@material-ui/core';
 import Logo from '../../assets/logo.png';
+import { Menu } from '@material-ui/icons';
 
 export default class NavBar extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class NavBar extends Component {
             </Link>
         </div>
         <Button variant="outline" className='login-btn' >Login </Button>
+        <Menu className='menu-btn' />
       </AppBar>
     </div>;
   }

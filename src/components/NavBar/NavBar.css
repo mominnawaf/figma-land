@@ -1,6 +1,7 @@
 .app-bar {
     background-color: #181818 !important;
     flex-direction: row !important;
+    justify-content: space-around !important;
 }
 
 .logo {
@@ -49,7 +50,21 @@
     /* shadow */
 
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
-    margin-left: 30% !important;
+    margin-left: 20% !important;
     margin-top: 1rem !important;
-
+}
+.menu-btn{
+    display: none !important;
+}
+@media screen and (max-width: 1050px) {
+    .nav-menu {
+        display: none;
+    }
+    .login-btn{
+        margin-left: 0px !important
+    }
+    .menu-btn{
+        display: block !important;
+        margin-top: 2rem !important;
+    }
 }
