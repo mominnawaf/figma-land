@@ -23,7 +23,7 @@ export default class NavBar extends Component {
             Contact
             </Link>
         </div>
-        <Button variant="outline" className='login-btn' >Login </Button>
+        <Button variant="outlined" className='login-btn' >Login </Button>
         <Menu className='menu-btn' />
       </AppBar>
     </div>;
