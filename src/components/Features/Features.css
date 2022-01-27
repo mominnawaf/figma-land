@@ -1,0 +1,120 @@
+.features {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features h2 {
+    width: 251px;
+    height: 62px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    /* identical to box height, or 119% */
+
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.features h6 {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.main-features {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.main-features img {
+    flex: 1;
+}
+
+.main-features div {
+    flex: 1;
+}
+
+.title {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.1px;
+
+    /* light text */
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    width: 173px;
+    height: 80px;
+}
+
+.description {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* light text */
+    margin-left: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 269px;
+    height: 116px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+.icon{
+    color: #02E4C0;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 1156px) {
+    .main-features{
+        flex-direction: column;
+    }
+    .content{
+        align-items: center;
+    }
+    .description{
+        margin-left: 0px;
+    }
+    .main-features img{
+        width: 80%;
+    height: 70%;
+    }
+}
