@@ -1,0 +1,99 @@
+.footer {
+    padding: 100px 100px;
+    display: flex;
+}
+
+.footer-left {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container h5 {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.footer li {
+    /* Link */
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.addess-container {
+    display: flex;
+    align-items: center;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.addess-container p {
+    margin-left: 5px;
+}
+
+.social-container {
+    color: #FFFFFF;
+    display: flex;
+}
+
+.social-container * {
+    padding: 3%;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-right {
+
+        align-items: center;
+    }
+}
