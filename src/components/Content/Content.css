@@ -132,5 +132,10 @@
     .content-class h5{
         width: 308px;
     }
-    
+    .left-card{
+        width: 320px;
+    }
+    .right-card{
+        width: 320px;
+    }
 }
