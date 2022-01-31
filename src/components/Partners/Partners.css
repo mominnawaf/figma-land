@@ -1,0 +1,97 @@
+.partner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-container h3 {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    /* identical to box height, or 119% */
+
+    letter-spacing: 0.2px;
+    width: 223px;
+    height: 82px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}
+
+.partner-container p {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+    width: 591px;
+    height: 80px;
+}
+
+.partner-logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.brandlogo {
+    width: 100px;
+    height: 70px;
+    margin-left: 7%;
+}
+.partner-button{
+    width: 176px;
+height: 52px;
+
+/* light text */
+margin:5% 0 5% 0 !important;
+border: 1px solid #FFFFFF !important;
+box-sizing: border-box !important;
+filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15)) !important;
+color: #FFFFFF !important;
+text-transform: none !important;
+font-family: Graphik;
+font-style: normal;
+font-weight: 500 !important;
+font-size: 17px !important;
+line-height: 25px !important;
+/* identical to box height, or 147% */
+
+letter-spacing: 0.2px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .partner-container p {
+        width: 349px;
+        height: 110px;
+    }
+
+    .partner-logos {
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .brandlogo {
+        margin-left: 0%;
+        margin: 15px;
+    }
+}
